@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="max-w-article">
+  <header>
+    <h1 class="text-4xl font-medium">{{ page.title }}</h1>
+    <h2 class="text-sm text-secondary uppercase">{{ page.date | date_to_string }}</h2>
+  </header>
+  <section class="text-lg mt-2">
+    {{ content }}
+  </section>
+</article>

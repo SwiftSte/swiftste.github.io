@@ -1,0 +1,11 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^3.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "tailwindcss": "^1.0.4"
+  }
+}

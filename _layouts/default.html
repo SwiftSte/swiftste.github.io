@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    {% feed_meta %}
+    {% seo %}
+  </head>
+  <body class="text-primary">
+    <div class="flex">
+      <div class="border-r border-separator flex-shrink-0 bg-secondary border-l border-gray-300 w-64 mr-4">
+        {% include navigation.html %}
+      </div>
+      <div class="p-5">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>
